@@ -1,0 +1,43 @@
+# 数据集配置
+dataset:
+  name: "ENZYMES"  # 使用的数据集名称（在torch_geometric中定义）
+  data_root: "./data"  # 数据集存储路径
+  source_classes: [0, 1, 2, 3]  # 源域中包含的已知类别
+  target_classes: [0, 1, 2, 3, 4, 5]  # 目标域中包含的所有类别（含已知和未知类别）
+  batch_size: 32  # 每个batch的样本数
+
+  # 数据分配配置（适用于重叠类别样本的分配）
+  allocation:
+    source_ratio: 0.7  # 源域在重叠类别中的样本比例（0到1之间）
+    random_state: 42  # 随机种子
+  
+  # 数据集划分配置
+  split:
+    val_size: 0.2  # 验证集所占比例
+    random_state: 42  # 划分时的随机种子
+
+# 模型配置
+model:
+  name: "GIN"  # 模型名称
+  gin_hidden_dim: 32  # GIN模型隐藏层维度
+  gin_layers: 4  # GIN模型的层数
+  dropout: 0.1  # dropout比例
+
+# 训练配置
+train:
+  lr: 0.01  # 学习率
+  epochs: 300  # 训练总轮数
+  weight_decay: 0.0  # 权重衰减（L2正则化）
+  seed: 42  # 训练时使用的随机种子
+  early_stop_patience: 150
+
+# 域适应配置
+adapt:
+  method: "shot"  # 域适应方法（例如，"shot"表示使用少量标记样本进行适应）
+  epochs: 20  # 域适应的训练轮数
+  threshold: 0.7  # 域适应中使用的阈值（例如，在此阈值之上选取样本）
+
+# 输出配置
+output:
+  model_dir: "./checkpoints"  # 模型保存路径
+  log_dir: "./logs"  # 日志保存路径

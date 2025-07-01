@@ -1,0 +1,381 @@
+2025-06-22 10:45:42,633 [INFO] Using device: cpu
+2025-06-22 10:45:42,633 [INFO] 开始创建数据加载器...
+2025-06-22 10:45:42,636 [INFO] Successfully loaded dataset ENZYMES from ./data, total graphs: 600
+2025-06-22 10:45:42,636 [INFO] Class allocation analysis:
+2025-06-22 10:45:42,636 [INFO]   Source classes: [0, 1, 2, 3]
+2025-06-22 10:45:42,636 [INFO]   Target classes: [0, 1, 2, 3, 4, 5]
+2025-06-22 10:45:42,636 [INFO]   Overlap classes (to be split): [0, 1, 2, 3]
+2025-06-22 10:45:42,636 [INFO]   Target novel classes (unknown): [4, 5]
+2025-06-22 10:45:42,649 [INFO]   Class 0: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,650 [INFO]   Class 1: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,650 [INFO]   Class 2: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,650 [INFO]   Class 3: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,650 [INFO]   Class 4 (novel/unknown): 100 samples -> Target
+2025-06-22 10:45:42,650 [INFO]   Class 5 (novel/unknown): 100 samples -> Target
+2025-06-22 10:45:42,650 [INFO] Final allocation:
+2025-06-22 10:45:42,650 [INFO]   Source domain: 280 samples
+2025-06-22 10:45:42,650 [INFO]   Target domain: 320 samples
+2025-06-22 10:45:42,651 [INFO] Source domain setup:
+2025-06-22 10:45:42,651 [INFO]   Original classes: [0, 1, 2, 3]
+2025-06-22 10:45:42,651 [INFO]   Overlap classes used: [0, 1, 2, 3]
+2025-06-22 10:45:42,651 [INFO]   Label mapping: {0: 0, 1: 1, 2: 2, 3: 3}
+2025-06-22 10:45:42,651 [INFO]   Total data after allocation: 280
+2025-06-22 10:45:42,651 [INFO]   Data split - Train: 224, Val: 56
+2025-06-22 10:45:42,651 [INFO]   Train label distribution: {0: 56, 1: 56, 3: 56, 2: 56}
+2025-06-22 10:45:42,651 [INFO]   Val label distribution: {1: 14, 2: 14, 0: 14, 3: 14}
+2025-06-22 10:45:42,653 [INFO] Successfully loaded dataset ENZYMES from ./data, total graphs: 600
+2025-06-22 10:45:42,653 [INFO] Class allocation analysis:
+2025-06-22 10:45:42,653 [INFO]   Source classes: [0, 1, 2, 3]
+2025-06-22 10:45:42,653 [INFO]   Target classes: [0, 1, 2, 3, 4, 5]
+2025-06-22 10:45:42,653 [INFO]   Overlap classes (to be split): [0, 1, 2, 3]
+2025-06-22 10:45:42,653 [INFO]   Target novel classes (unknown): [4, 5]
+2025-06-22 10:45:42,666 [INFO]   Class 0: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,666 [INFO]   Class 1: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,666 [INFO]   Class 2: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,666 [INFO]   Class 3: 100 total -> Source: 70, Target: 30
+2025-06-22 10:45:42,666 [INFO]   Class 4 (novel/unknown): 100 samples -> Target
+2025-06-22 10:45:42,666 [INFO]   Class 5 (novel/unknown): 100 samples -> Target
+2025-06-22 10:45:42,667 [INFO] Final allocation:
+2025-06-22 10:45:42,667 [INFO]   Source domain: 280 samples
+2025-06-22 10:45:42,667 [INFO]   Target domain: 320 samples
+2025-06-22 10:45:42,668 [INFO] Target domain setup:
+2025-06-22 10:45:42,668 [INFO]   Original classes: [0, 1, 2, 3, 4, 5]
+2025-06-22 10:45:42,668 [INFO]   Overlap classes: [0, 1, 2, 3]
+2025-06-22 10:45:42,668 [INFO]   Novel classes: [4, 5] -> mapped to unknown label 4
+2025-06-22 10:45:42,668 [INFO]   Label mapping: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 4}
+2025-06-22 10:45:42,668 [INFO]   Total data after allocation: 320
+2025-06-22 10:45:42,668 [INFO]   Data split - Train: 256, Val: 64
+2025-06-22 10:45:42,668 [INFO]   Total count: 320 (known: 120, unknown: 200)
+2025-06-22 10:45:42,668 [INFO]   Total label distribution: {4: 200, 3: 30, 0: 30, 1: 30, 2: 30}
+2025-06-22 10:45:42,668 [INFO]   Train label distribution: {4: 160, 0: 24, 2: 24, 3: 24, 1: 24}
+2025-06-22 10:45:42,668 [INFO]   Val label distribution: {1: 6, 4: 40, 3: 6, 0: 6, 2: 6}
+2025-06-22 10:45:42,668 [INFO] 数据加载器创建完成!
+2025-06-22 10:45:42,668 [INFO] 源域类别数: 4 (重叠类别)
+2025-06-22 10:45:42,668 [INFO] 目标域类别数: 5 (4个重叠类别 + 1个未知类别)
+2025-06-22 10:45:42,669 [INFO] 重叠类别: [0, 1, 2, 3]
+2025-06-22 10:45:42,669 [INFO] 目标域新类别: [4, 5]
+2025-06-22 10:45:42,669 [INFO] Data allocation verification:
+2025-06-22 10:45:42,669 [INFO]   Source data samples: 280
+2025-06-22 10:45:42,669 [INFO]   Target data samples: 320
+2025-06-22 10:45:42,669 [INFO]   Overlapping samples: 0
+2025-06-22 10:45:42,669 [INFO]   ✓ Data allocation is correct - no overlapping samples
+2025-06-22 10:45:42,672 [INFO] Model initialized with 466692 parameters
+2025-06-22 10:45:42,672 [INFO] Previous best validation accuracy read from record.txt: 0.6250
+2025-06-22 10:45:42,672 [INFO] Starting training...
+2025-06-22 10:45:42,753 [INFO] Epoch 001 | Train Loss: 12.8291 | Val Loss: 1.5148 | Val Acc: 0.3036
+2025-06-22 10:45:45,050 [INFO] New best model at epoch 1 (Val Acc: 0.3036)
+2025-06-22 10:45:45,158 [INFO] Epoch 002 | Train Loss: 7.6715 | Val Loss: 1.6959 | Val Acc: 0.2857
+2025-06-22 10:45:45,231 [INFO] Epoch 003 | Train Loss: 7.8431 | Val Loss: 2.5711 | Val Acc: 0.2857
+2025-06-22 10:45:45,296 [INFO] Epoch 004 | Train Loss: 8.3594 | Val Loss: 5.3498 | Val Acc: 0.3750
+2025-06-22 10:45:45,307 [INFO] New best model at epoch 4 (Val Acc: 0.3750)
+2025-06-22 10:45:45,363 [INFO] Epoch 005 | Train Loss: 5.6048 | Val Loss: 4.0593 | Val Acc: 0.3214
+2025-06-22 10:45:45,427 [INFO] Epoch 006 | Train Loss: 5.0842 | Val Loss: 3.2260 | Val Acc: 0.3571
+2025-06-22 10:45:45,490 [INFO] Epoch 007 | Train Loss: 4.9341 | Val Loss: 3.5102 | Val Acc: 0.3214
+2025-06-22 10:45:45,552 [INFO] Epoch 008 | Train Loss: 5.1999 | Val Loss: 3.4068 | Val Acc: 0.4464
+2025-06-22 10:45:45,563 [INFO] New best model at epoch 8 (Val Acc: 0.4464)
+2025-06-22 10:45:45,644 [INFO] Epoch 009 | Train Loss: 5.9232 | Val Loss: 2.5088 | Val Acc: 0.3750
+2025-06-22 10:45:45,703 [INFO] Epoch 010 | Train Loss: 4.7733 | Val Loss: 3.5744 | Val Acc: 0.3036
+2025-06-22 10:45:46,574 [INFO] Epoch 011 | Train Loss: 4.5114 | Val Loss: 4.9146 | Val Acc: 0.3214
+2025-06-22 10:45:46,649 [INFO] Epoch 012 | Train Loss: 6.6402 | Val Loss: 3.2604 | Val Acc: 0.3214
+2025-06-22 10:45:46,711 [INFO] Epoch 013 | Train Loss: 3.8212 | Val Loss: 3.8765 | Val Acc: 0.4464
+2025-06-22 10:45:46,772 [INFO] Epoch 014 | Train Loss: 4.5316 | Val Loss: 3.0545 | Val Acc: 0.3571
+2025-06-22 10:45:46,833 [INFO] Epoch 015 | Train Loss: 4.5480 | Val Loss: 2.3937 | Val Acc: 0.3214
+2025-06-22 10:45:46,895 [INFO] Epoch 016 | Train Loss: 3.5357 | Val Loss: 3.7944 | Val Acc: 0.3750
+2025-06-22 10:45:46,958 [INFO] Epoch 017 | Train Loss: 3.9083 | Val Loss: 3.8929 | Val Acc: 0.3214
+2025-06-22 10:45:47,019 [INFO] Epoch 018 | Train Loss: 3.0776 | Val Loss: 2.6752 | Val Acc: 0.3214
+2025-06-22 10:45:47,084 [INFO] Epoch 019 | Train Loss: 3.4916 | Val Loss: 2.6945 | Val Acc: 0.4107
+2025-06-22 10:45:47,164 [INFO] Epoch 020 | Train Loss: 3.9682 | Val Loss: 2.4071 | Val Acc: 0.3750
+2025-06-22 10:45:48,042 [INFO] Epoch 021 | Train Loss: 3.9931 | Val Loss: 2.7745 | Val Acc: 0.3750
+2025-06-22 10:45:48,103 [INFO] Epoch 022 | Train Loss: 2.8402 | Val Loss: 2.6776 | Val Acc: 0.3393
+2025-06-22 10:45:48,163 [INFO] Epoch 023 | Train Loss: 3.3214 | Val Loss: 3.5987 | Val Acc: 0.2857
+2025-06-22 10:45:48,223 [INFO] Epoch 024 | Train Loss: 2.5059 | Val Loss: 4.7258 | Val Acc: 0.3036
+2025-06-22 10:45:48,283 [INFO] Epoch 025 | Train Loss: 2.5922 | Val Loss: 3.1014 | Val Acc: 0.3571
+2025-06-22 10:45:48,350 [INFO] Epoch 026 | Train Loss: 2.5108 | Val Loss: 3.1339 | Val Acc: 0.3036
+2025-06-22 10:45:48,410 [INFO] Epoch 027 | Train Loss: 3.0688 | Val Loss: 2.4527 | Val Acc: 0.2857
+2025-06-22 10:45:48,473 [INFO] Epoch 028 | Train Loss: 2.8181 | Val Loss: 1.8956 | Val Acc: 0.3036
+2025-06-22 10:45:48,553 [INFO] Epoch 029 | Train Loss: 1.5646 | Val Loss: 1.8720 | Val Acc: 0.3571
+2025-06-22 10:45:48,613 [INFO] Epoch 030 | Train Loss: 2.0314 | Val Loss: 1.9240 | Val Acc: 0.3393
+2025-06-22 10:45:49,503 [INFO] Epoch 031 | Train Loss: 2.1145 | Val Loss: 1.8451 | Val Acc: 0.3214
+2025-06-22 10:45:49,644 [INFO] Epoch 032 | Train Loss: 3.4543 | Val Loss: 2.0330 | Val Acc: 0.3571
+2025-06-22 10:45:49,705 [INFO] Epoch 033 | Train Loss: 2.1412 | Val Loss: 1.9736 | Val Acc: 0.4107
+2025-06-22 10:45:49,766 [INFO] Epoch 034 | Train Loss: 2.2576 | Val Loss: 2.7885 | Val Acc: 0.3929
+2025-06-22 10:45:49,825 [INFO] Epoch 035 | Train Loss: 1.7971 | Val Loss: 2.1094 | Val Acc: 0.4107
+2025-06-22 10:45:49,885 [INFO] Epoch 036 | Train Loss: 2.2652 | Val Loss: 2.2736 | Val Acc: 0.3929
+2025-06-22 10:45:49,948 [INFO] Epoch 037 | Train Loss: 1.4034 | Val Loss: 2.0894 | Val Acc: 0.3929
+2025-06-22 10:45:50,015 [INFO] Epoch 038 | Train Loss: 2.2115 | Val Loss: 2.6969 | Val Acc: 0.3750
+2025-06-22 10:45:50,075 [INFO] Epoch 039 | Train Loss: 1.7895 | Val Loss: 2.8949 | Val Acc: 0.2679
+2025-06-22 10:45:50,147 [INFO] Epoch 040 | Train Loss: 2.8625 | Val Loss: 2.2771 | Val Acc: 0.3571
+2025-06-22 10:45:51,029 [INFO] Epoch 041 | Train Loss: 1.7321 | Val Loss: 2.1025 | Val Acc: 0.4107
+2025-06-22 10:45:51,092 [INFO] Epoch 042 | Train Loss: 1.5155 | Val Loss: 2.2692 | Val Acc: 0.3929
+2025-06-22 10:45:51,149 [INFO] Epoch 043 | Train Loss: 1.7537 | Val Loss: 2.3818 | Val Acc: 0.3571
+2025-06-22 10:45:51,209 [INFO] Epoch 044 | Train Loss: 1.6306 | Val Loss: 1.9239 | Val Acc: 0.3393
+2025-06-22 10:45:51,268 [INFO] Epoch 045 | Train Loss: 1.4584 | Val Loss: 1.6828 | Val Acc: 0.3929
+2025-06-22 10:45:51,328 [INFO] Epoch 046 | Train Loss: 1.4292 | Val Loss: 1.7316 | Val Acc: 0.4107
+2025-06-22 10:45:51,389 [INFO] Epoch 047 | Train Loss: 1.5961 | Val Loss: 2.0657 | Val Acc: 0.3929
+2025-06-22 10:45:51,448 [INFO] Epoch 048 | Train Loss: 1.6374 | Val Loss: 1.8040 | Val Acc: 0.4107
+2025-06-22 10:45:51,536 [INFO] Epoch 049 | Train Loss: 2.2370 | Val Loss: 2.5559 | Val Acc: 0.3036
+2025-06-22 10:45:51,608 [INFO] Epoch 050 | Train Loss: 1.8601 | Val Loss: 4.8582 | Val Acc: 0.3036
+2025-06-22 10:45:52,441 [INFO] Epoch 051 | Train Loss: 2.0320 | Val Loss: 3.6884 | Val Acc: 0.3750
+2025-06-22 10:45:52,508 [INFO] Epoch 052 | Train Loss: 1.9407 | Val Loss: 2.9108 | Val Acc: 0.3929
+2025-06-22 10:45:52,567 [INFO] Epoch 053 | Train Loss: 1.5040 | Val Loss: 2.1688 | Val Acc: 0.4464
+2025-06-22 10:45:52,651 [INFO] Epoch 054 | Train Loss: 1.7075 | Val Loss: 2.5077 | Val Acc: 0.3214
+2025-06-22 10:45:52,721 [INFO] Epoch 055 | Train Loss: 1.4754 | Val Loss: 2.5751 | Val Acc: 0.2857
+2025-06-22 10:45:52,781 [INFO] Epoch 056 | Train Loss: 1.0702 | Val Loss: 2.8615 | Val Acc: 0.3393
+2025-06-22 10:45:52,842 [INFO] Epoch 057 | Train Loss: 1.5726 | Val Loss: 2.3160 | Val Acc: 0.3571
+2025-06-22 10:45:52,904 [INFO] Epoch 058 | Train Loss: 1.1703 | Val Loss: 2.3822 | Val Acc: 0.3750
+2025-06-22 10:45:52,994 [INFO] Epoch 059 | Train Loss: 1.1688 | Val Loss: 2.6862 | Val Acc: 0.3750
+2025-06-22 10:45:53,056 [INFO] Epoch 060 | Train Loss: 0.9010 | Val Loss: 2.3874 | Val Acc: 0.3929
+2025-06-22 10:45:56,558 [INFO] Epoch 061 | Train Loss: 2.3956 | Val Loss: 2.6289 | Val Acc: 0.4107
+2025-06-22 10:45:56,629 [INFO] Epoch 062 | Train Loss: 1.1876 | Val Loss: 3.3412 | Val Acc: 0.3036
+2025-06-22 10:45:56,723 [INFO] Epoch 063 | Train Loss: 0.9533 | Val Loss: 2.9367 | Val Acc: 0.3750
+2025-06-22 10:45:56,791 [INFO] Epoch 064 | Train Loss: 1.8825 | Val Loss: 2.3762 | Val Acc: 0.3214
+2025-06-22 10:45:56,896 [INFO] Epoch 065 | Train Loss: 1.0942 | Val Loss: 2.4145 | Val Acc: 0.3214
+2025-06-22 10:45:56,958 [INFO] Epoch 066 | Train Loss: 1.6914 | Val Loss: 2.1165 | Val Acc: 0.4107
+2025-06-22 10:45:57,067 [INFO] Epoch 067 | Train Loss: 0.9206 | Val Loss: 2.1077 | Val Acc: 0.4821
+2025-06-22 10:45:57,088 [INFO] New best model at epoch 67 (Val Acc: 0.4821)
+2025-06-22 10:45:57,145 [INFO] Epoch 068 | Train Loss: 1.1611 | Val Loss: 2.3862 | Val Acc: 0.4464
+2025-06-22 10:45:57,228 [INFO] Epoch 069 | Train Loss: 0.9611 | Val Loss: 2.5236 | Val Acc: 0.4821
+2025-06-22 10:45:57,294 [INFO] Epoch 070 | Train Loss: 1.8336 | Val Loss: 2.4124 | Val Acc: 0.4643
+2025-06-22 10:45:58,596 [INFO] Epoch 071 | Train Loss: 0.8074 | Val Loss: 2.4451 | Val Acc: 0.3750
+2025-06-22 10:45:58,662 [INFO] Epoch 072 | Train Loss: 1.1595 | Val Loss: 2.4305 | Val Acc: 0.3750
+2025-06-22 10:45:58,726 [INFO] Epoch 073 | Train Loss: 1.2546 | Val Loss: 3.2587 | Val Acc: 0.4107
+2025-06-22 10:45:58,792 [INFO] Epoch 074 | Train Loss: 1.3745 | Val Loss: 3.3461 | Val Acc: 0.3750
+2025-06-22 10:45:58,856 [INFO] Epoch 075 | Train Loss: 0.9754 | Val Loss: 3.0118 | Val Acc: 0.2857
+2025-06-22 10:45:58,921 [INFO] Epoch 076 | Train Loss: 1.3153 | Val Loss: 3.4404 | Val Acc: 0.3929
+2025-06-22 10:45:58,986 [INFO] Epoch 077 | Train Loss: 0.8052 | Val Loss: 2.9754 | Val Acc: 0.3929
+2025-06-22 10:45:59,050 [INFO] Epoch 078 | Train Loss: 0.9266 | Val Loss: 2.8289 | Val Acc: 0.4107
+2025-06-22 10:45:59,135 [INFO] Epoch 079 | Train Loss: 0.9306 | Val Loss: 3.5985 | Val Acc: 0.3929
+2025-06-22 10:45:59,196 [INFO] Epoch 080 | Train Loss: 0.8381 | Val Loss: 3.1393 | Val Acc: 0.4107
+2025-06-22 10:46:00,098 [INFO] Epoch 081 | Train Loss: 0.7876 | Val Loss: 3.8068 | Val Acc: 0.3929
+2025-06-22 10:46:00,158 [INFO] Epoch 082 | Train Loss: 0.9240 | Val Loss: 3.1349 | Val Acc: 0.3393
+2025-06-22 10:46:00,218 [INFO] Epoch 083 | Train Loss: 1.0265 | Val Loss: 2.6793 | Val Acc: 0.4286
+2025-06-22 10:46:00,277 [INFO] Epoch 084 | Train Loss: 1.6834 | Val Loss: 2.3316 | Val Acc: 0.4286
+2025-06-22 10:46:00,339 [INFO] Epoch 085 | Train Loss: 1.3176 | Val Loss: 2.5844 | Val Acc: 0.4107
+2025-06-22 10:46:00,402 [INFO] Epoch 086 | Train Loss: 0.9189 | Val Loss: 2.6724 | Val Acc: 0.4107
+2025-06-22 10:46:00,463 [INFO] Epoch 087 | Train Loss: 0.7058 | Val Loss: 2.9765 | Val Acc: 0.4643
+2025-06-22 10:46:00,525 [INFO] Epoch 088 | Train Loss: 1.2511 | Val Loss: 2.8343 | Val Acc: 0.4464
+2025-06-22 10:46:00,596 [INFO] Epoch 089 | Train Loss: 1.2482 | Val Loss: 2.5292 | Val Acc: 0.4286
+2025-06-22 10:46:00,657 [INFO] Epoch 090 | Train Loss: 0.6698 | Val Loss: 3.1732 | Val Acc: 0.4107
+2025-06-22 10:46:01,530 [INFO] Epoch 091 | Train Loss: 1.1973 | Val Loss: 2.8352 | Val Acc: 0.5000
+2025-06-22 10:46:01,540 [INFO] New best model at epoch 91 (Val Acc: 0.5000)
+2025-06-22 10:46:01,594 [INFO] Epoch 092 | Train Loss: 1.4476 | Val Loss: 2.7851 | Val Acc: 0.3929
+2025-06-22 10:46:01,655 [INFO] Epoch 093 | Train Loss: 1.7194 | Val Loss: 2.9223 | Val Acc: 0.3929
+2025-06-22 10:46:01,724 [INFO] Epoch 094 | Train Loss: 1.1892 | Val Loss: 2.9425 | Val Acc: 0.4464
+2025-06-22 10:46:01,786 [INFO] Epoch 095 | Train Loss: 0.8096 | Val Loss: 3.0862 | Val Acc: 0.3929
+2025-06-22 10:46:01,847 [INFO] Epoch 096 | Train Loss: 1.0065 | Val Loss: 3.0233 | Val Acc: 0.3393
+2025-06-22 10:46:01,908 [INFO] Epoch 097 | Train Loss: 1.2551 | Val Loss: 2.7083 | Val Acc: 0.3571
+2025-06-22 10:46:01,970 [INFO] Epoch 098 | Train Loss: 1.3196 | Val Loss: 3.2237 | Val Acc: 0.3214
+2025-06-22 10:46:02,042 [INFO] Epoch 099 | Train Loss: 0.7742 | Val Loss: 3.9899 | Val Acc: 0.3393
+2025-06-22 10:46:02,123 [INFO] Epoch 100 | Train Loss: 0.9910 | Val Loss: 4.0349 | Val Acc: 0.3571
+2025-06-22 10:46:02,970 [INFO] Epoch 101 | Train Loss: 0.9562 | Val Loss: 3.1816 | Val Acc: 0.3750
+2025-06-22 10:46:03,044 [INFO] Epoch 102 | Train Loss: 0.7778 | Val Loss: 3.2444 | Val Acc: 0.3750
+2025-06-22 10:46:03,103 [INFO] Epoch 103 | Train Loss: 0.7181 | Val Loss: 2.6906 | Val Acc: 0.3571
+2025-06-22 10:46:03,165 [INFO] Epoch 104 | Train Loss: 0.8610 | Val Loss: 2.5733 | Val Acc: 0.3929
+2025-06-22 10:46:03,244 [INFO] Epoch 105 | Train Loss: 0.6955 | Val Loss: 2.7896 | Val Acc: 0.3929
+2025-06-22 10:46:03,314 [INFO] Epoch 106 | Train Loss: 1.2146 | Val Loss: 2.5801 | Val Acc: 0.3929
+2025-06-22 10:46:03,374 [INFO] Epoch 107 | Train Loss: 0.7665 | Val Loss: 2.4747 | Val Acc: 0.3393
+2025-06-22 10:46:03,435 [INFO] Epoch 108 | Train Loss: 0.5910 | Val Loss: 2.6742 | Val Acc: 0.3393
+2025-06-22 10:46:03,501 [INFO] Epoch 109 | Train Loss: 0.6588 | Val Loss: 2.6600 | Val Acc: 0.4464
+2025-06-22 10:46:03,562 [INFO] Epoch 110 | Train Loss: 1.2031 | Val Loss: 2.6379 | Val Acc: 0.3929
+2025-06-22 10:46:04,418 [INFO] Epoch 111 | Train Loss: 0.7701 | Val Loss: 3.0457 | Val Acc: 0.4107
+2025-06-22 10:46:04,475 [INFO] Epoch 112 | Train Loss: 0.8130 | Val Loss: 3.4654 | Val Acc: 0.4286
+2025-06-22 10:46:04,535 [INFO] Epoch 113 | Train Loss: 0.7543 | Val Loss: 3.5059 | Val Acc: 0.4643
+2025-06-22 10:46:04,596 [INFO] Epoch 114 | Train Loss: 0.5391 | Val Loss: 3.0573 | Val Acc: 0.4643
+2025-06-22 10:46:04,659 [INFO] Epoch 115 | Train Loss: 0.5189 | Val Loss: 3.3830 | Val Acc: 0.3750
+2025-06-22 10:46:04,722 [INFO] Epoch 116 | Train Loss: 0.8093 | Val Loss: 3.4678 | Val Acc: 0.4464
+2025-06-22 10:46:04,784 [INFO] Epoch 117 | Train Loss: 0.6868 | Val Loss: 3.4787 | Val Acc: 0.4643
+2025-06-22 10:46:04,847 [INFO] Epoch 118 | Train Loss: 0.7616 | Val Loss: 2.9759 | Val Acc: 0.4286
+2025-06-22 10:46:04,915 [INFO] Epoch 119 | Train Loss: 0.5978 | Val Loss: 3.2577 | Val Acc: 0.4107
+2025-06-22 10:46:04,976 [INFO] Epoch 120 | Train Loss: 0.8136 | Val Loss: 3.1745 | Val Acc: 0.3750
+2025-06-22 10:46:05,918 [INFO] Epoch 121 | Train Loss: 0.9190 | Val Loss: 3.2509 | Val Acc: 0.3393
+2025-06-22 10:46:05,978 [INFO] Epoch 122 | Train Loss: 0.7472 | Val Loss: 3.6306 | Val Acc: 0.4107
+2025-06-22 10:46:06,039 [INFO] Epoch 123 | Train Loss: 0.6268 | Val Loss: 3.2370 | Val Acc: 0.3750
+2025-06-22 10:46:06,100 [INFO] Epoch 124 | Train Loss: 0.6606 | Val Loss: 4.0305 | Val Acc: 0.3571
+2025-06-22 10:46:06,161 [INFO] Epoch 125 | Train Loss: 0.8309 | Val Loss: 3.8275 | Val Acc: 0.3214
+2025-06-22 10:46:06,223 [INFO] Epoch 126 | Train Loss: 1.4999 | Val Loss: 3.4244 | Val Acc: 0.3214
+2025-06-22 10:46:06,285 [INFO] Epoch 127 | Train Loss: 0.6118 | Val Loss: 3.9179 | Val Acc: 0.4107
+2025-06-22 10:46:06,367 [INFO] Epoch 128 | Train Loss: 0.7305 | Val Loss: 4.4105 | Val Acc: 0.4464
+2025-06-22 10:46:06,449 [INFO] Epoch 129 | Train Loss: 0.9323 | Val Loss: 4.5749 | Val Acc: 0.3929
+2025-06-22 10:46:06,518 [INFO] Epoch 130 | Train Loss: 1.0937 | Val Loss: 4.7653 | Val Acc: 0.5000
+2025-06-22 10:46:07,459 [INFO] Epoch 131 | Train Loss: 1.3254 | Val Loss: 3.5100 | Val Acc: 0.5000
+2025-06-22 10:46:07,543 [INFO] Epoch 132 | Train Loss: 0.9167 | Val Loss: 4.0527 | Val Acc: 0.3929
+2025-06-22 10:46:07,607 [INFO] Epoch 133 | Train Loss: 1.0909 | Val Loss: 4.1692 | Val Acc: 0.4464
+2025-06-22 10:46:07,667 [INFO] Epoch 134 | Train Loss: 0.8301 | Val Loss: 3.8400 | Val Acc: 0.4107
+2025-06-22 10:46:07,729 [INFO] Epoch 135 | Train Loss: 1.1964 | Val Loss: 3.7320 | Val Acc: 0.3393
+2025-06-22 10:46:07,791 [INFO] Epoch 136 | Train Loss: 0.9362 | Val Loss: 3.6861 | Val Acc: 0.3929
+2025-06-22 10:46:07,852 [INFO] Epoch 137 | Train Loss: 0.6548 | Val Loss: 3.3540 | Val Acc: 0.3929
+2025-06-22 10:46:07,915 [INFO] Epoch 138 | Train Loss: 0.7108 | Val Loss: 3.2587 | Val Acc: 0.3571
+2025-06-22 10:46:07,980 [INFO] Epoch 139 | Train Loss: 0.8461 | Val Loss: 3.4035 | Val Acc: 0.4821
+2025-06-22 10:46:08,042 [INFO] Epoch 140 | Train Loss: 0.6807 | Val Loss: 4.3707 | Val Acc: 0.4643
+2025-06-22 10:46:08,918 [INFO] Epoch 141 | Train Loss: 0.7228 | Val Loss: 3.8305 | Val Acc: 0.5179
+2025-06-22 10:46:08,929 [INFO] New best model at epoch 141 (Val Acc: 0.5179)
+2025-06-22 10:46:08,979 [INFO] Epoch 142 | Train Loss: 0.7008 | Val Loss: 2.7900 | Val Acc: 0.5179
+2025-06-22 10:46:09,038 [INFO] Epoch 143 | Train Loss: 0.5353 | Val Loss: 3.1002 | Val Acc: 0.4286
+2025-06-22 10:46:09,099 [INFO] Epoch 144 | Train Loss: 0.6159 | Val Loss: 3.3367 | Val Acc: 0.4107
+2025-06-22 10:46:09,160 [INFO] Epoch 145 | Train Loss: 0.3856 | Val Loss: 3.3509 | Val Acc: 0.3929
+2025-06-22 10:46:09,220 [INFO] Epoch 146 | Train Loss: 0.8918 | Val Loss: 3.3484 | Val Acc: 0.4107
+2025-06-22 10:46:09,284 [INFO] Epoch 147 | Train Loss: 0.3608 | Val Loss: 3.7495 | Val Acc: 0.4107
+2025-06-22 10:46:09,346 [INFO] Epoch 148 | Train Loss: 0.4250 | Val Loss: 3.6305 | Val Acc: 0.4107
+2025-06-22 10:46:09,418 [INFO] Epoch 149 | Train Loss: 0.7383 | Val Loss: 3.4202 | Val Acc: 0.4286
+2025-06-22 10:46:09,477 [INFO] Epoch 150 | Train Loss: 0.4565 | Val Loss: 3.3110 | Val Acc: 0.5000
+2025-06-22 10:46:10,457 [INFO] Epoch 151 | Train Loss: 0.4886 | Val Loss: 3.1679 | Val Acc: 0.5536
+2025-06-22 10:46:10,468 [INFO] New best model at epoch 151 (Val Acc: 0.5536)
+2025-06-22 10:46:10,523 [INFO] Epoch 152 | Train Loss: 0.4700 | Val Loss: 3.0621 | Val Acc: 0.4643
+2025-06-22 10:46:10,580 [INFO] Epoch 153 | Train Loss: 0.4103 | Val Loss: 3.8199 | Val Acc: 0.3929
+2025-06-22 10:46:10,668 [INFO] Epoch 154 | Train Loss: 0.4931 | Val Loss: 4.0933 | Val Acc: 0.4107
+2025-06-22 10:46:10,741 [INFO] Epoch 155 | Train Loss: 0.4226 | Val Loss: 3.8607 | Val Acc: 0.5357
+2025-06-22 10:46:10,802 [INFO] Epoch 156 | Train Loss: 0.4183 | Val Loss: 4.4624 | Val Acc: 0.4643
+2025-06-22 10:46:10,862 [INFO] Epoch 157 | Train Loss: 0.6521 | Val Loss: 4.1775 | Val Acc: 0.4107
+2025-06-22 10:46:10,931 [INFO] Epoch 158 | Train Loss: 0.7432 | Val Loss: 3.5536 | Val Acc: 0.3750
+2025-06-22 10:46:10,993 [INFO] Epoch 159 | Train Loss: 0.4638 | Val Loss: 4.3031 | Val Acc: 0.4107
+2025-06-22 10:46:11,055 [INFO] Epoch 160 | Train Loss: 0.4585 | Val Loss: 5.2260 | Val Acc: 0.4464
+2025-06-22 10:46:11,941 [INFO] Epoch 161 | Train Loss: 0.5497 | Val Loss: 5.0414 | Val Acc: 0.4107
+2025-06-22 10:46:12,001 [INFO] Epoch 162 | Train Loss: 0.3847 | Val Loss: 4.1212 | Val Acc: 0.4464
+2025-06-22 10:46:12,060 [INFO] Epoch 163 | Train Loss: 0.5864 | Val Loss: 3.7334 | Val Acc: 0.4464
+2025-06-22 10:46:12,120 [INFO] Epoch 164 | Train Loss: 0.4609 | Val Loss: 3.6283 | Val Acc: 0.4464
+2025-06-22 10:46:12,180 [INFO] Epoch 165 | Train Loss: 0.4889 | Val Loss: 3.9871 | Val Acc: 0.4464
+2025-06-22 10:46:12,246 [INFO] Epoch 166 | Train Loss: 0.7688 | Val Loss: 3.8332 | Val Acc: 0.4286
+2025-06-22 10:46:12,306 [INFO] Epoch 167 | Train Loss: 0.5299 | Val Loss: 3.6017 | Val Acc: 0.5000
+2025-06-22 10:46:12,375 [INFO] Epoch 168 | Train Loss: 0.7408 | Val Loss: 4.7412 | Val Acc: 0.4464
+2025-06-22 10:46:12,451 [INFO] Epoch 169 | Train Loss: 0.5282 | Val Loss: 5.5077 | Val Acc: 0.5000
+2025-06-22 10:46:12,510 [INFO] Epoch 170 | Train Loss: 0.3135 | Val Loss: 4.8274 | Val Acc: 0.5536
+2025-06-22 10:46:13,411 [INFO] Epoch 171 | Train Loss: 0.3024 | Val Loss: 4.5599 | Val Acc: 0.5179
+2025-06-22 10:46:13,506 [INFO] Epoch 172 | Train Loss: 0.4380 | Val Loss: 4.4382 | Val Acc: 0.4286
+2025-06-22 10:46:13,620 [INFO] Epoch 173 | Train Loss: 0.2556 | Val Loss: 3.8398 | Val Acc: 0.4286
+2025-06-22 10:46:13,680 [INFO] Epoch 174 | Train Loss: 0.4507 | Val Loss: 3.7615 | Val Acc: 0.4821
+2025-06-22 10:46:13,749 [INFO] Epoch 175 | Train Loss: 0.4467 | Val Loss: 3.9088 | Val Acc: 0.4464
+2025-06-22 10:46:13,817 [INFO] Epoch 176 | Train Loss: 0.3081 | Val Loss: 4.5975 | Val Acc: 0.4286
+2025-06-22 10:46:13,905 [INFO] Epoch 177 | Train Loss: 0.3332 | Val Loss: 4.7334 | Val Acc: 0.4643
+2025-06-22 10:46:13,964 [INFO] Epoch 178 | Train Loss: 0.3957 | Val Loss: 4.9768 | Val Acc: 0.5000
+2025-06-22 10:46:14,026 [INFO] Epoch 179 | Train Loss: 0.3499 | Val Loss: 5.5976 | Val Acc: 0.4643
+2025-06-22 10:46:14,087 [INFO] Epoch 180 | Train Loss: 0.5039 | Val Loss: 4.7307 | Val Acc: 0.5000
+2025-06-22 10:46:17,115 [INFO] Epoch 181 | Train Loss: 0.2612 | Val Loss: 4.7506 | Val Acc: 0.4643
+2025-06-22 10:46:17,222 [INFO] Epoch 182 | Train Loss: 0.4281 | Val Loss: 4.7252 | Val Acc: 0.5536
+2025-06-22 10:46:17,287 [INFO] Epoch 183 | Train Loss: 0.5492 | Val Loss: 5.0377 | Val Acc: 0.5179
+2025-06-22 10:46:17,352 [INFO] Epoch 184 | Train Loss: 0.4214 | Val Loss: 5.2808 | Val Acc: 0.5179
+2025-06-22 10:46:17,444 [INFO] Epoch 185 | Train Loss: 0.5537 | Val Loss: 4.5841 | Val Acc: 0.4464
+2025-06-22 10:46:17,512 [INFO] Epoch 186 | Train Loss: 0.5449 | Val Loss: 3.9639 | Val Acc: 0.4464
+2025-06-22 10:46:17,610 [INFO] Epoch 187 | Train Loss: 0.2522 | Val Loss: 4.4274 | Val Acc: 0.4643
+2025-06-22 10:46:17,674 [INFO] Epoch 188 | Train Loss: 0.3992 | Val Loss: 5.2321 | Val Acc: 0.4107
+2025-06-22 10:46:17,735 [INFO] Epoch 189 | Train Loss: 0.2496 | Val Loss: 5.6911 | Val Acc: 0.3929
+2025-06-22 10:46:17,799 [INFO] Epoch 190 | Train Loss: 0.4747 | Val Loss: 6.0488 | Val Acc: 0.3393
+2025-06-22 10:46:18,659 [INFO] Epoch 191 | Train Loss: 0.3368 | Val Loss: 5.3665 | Val Acc: 0.4107
+2025-06-22 10:46:18,727 [INFO] Epoch 192 | Train Loss: 1.0775 | Val Loss: 4.8687 | Val Acc: 0.4286
+2025-06-22 10:46:18,789 [INFO] Epoch 193 | Train Loss: 0.5984 | Val Loss: 4.9109 | Val Acc: 0.4107
+2025-06-22 10:46:18,852 [INFO] Epoch 194 | Train Loss: 0.4220 | Val Loss: 4.7544 | Val Acc: 0.4821
+2025-06-22 10:46:18,935 [INFO] Epoch 195 | Train Loss: 0.8466 | Val Loss: 4.4915 | Val Acc: 0.4107
+2025-06-22 10:46:18,995 [INFO] Epoch 196 | Train Loss: 0.4748 | Val Loss: 4.8671 | Val Acc: 0.3571
+2025-06-22 10:46:19,057 [INFO] Epoch 197 | Train Loss: 0.5388 | Val Loss: 5.4067 | Val Acc: 0.3750
+2025-06-22 10:46:19,149 [INFO] Epoch 198 | Train Loss: 0.4256 | Val Loss: 5.6013 | Val Acc: 0.4286
+2025-06-22 10:46:19,246 [INFO] Epoch 199 | Train Loss: 0.3701 | Val Loss: 5.0423 | Val Acc: 0.3929
+2025-06-22 10:46:19,305 [INFO] Epoch 200 | Train Loss: 0.3846 | Val Loss: 5.0514 | Val Acc: 0.3750
+2025-06-22 10:46:20,184 [INFO] Epoch 201 | Train Loss: 0.3759 | Val Loss: 4.5744 | Val Acc: 0.4286
+2025-06-22 10:46:20,264 [INFO] Epoch 202 | Train Loss: 0.5526 | Val Loss: 4.9516 | Val Acc: 0.4107
+2025-06-22 10:46:20,334 [INFO] Epoch 203 | Train Loss: 0.4369 | Val Loss: 4.7257 | Val Acc: 0.4464
+2025-06-22 10:46:20,397 [INFO] Epoch 204 | Train Loss: 0.2839 | Val Loss: 5.6339 | Val Acc: 0.4821
+2025-06-22 10:46:20,458 [INFO] Epoch 205 | Train Loss: 0.3983 | Val Loss: 5.9538 | Val Acc: 0.4643
+2025-06-22 10:46:20,524 [INFO] Epoch 206 | Train Loss: 0.4399 | Val Loss: 4.5607 | Val Acc: 0.4286
+2025-06-22 10:46:20,585 [INFO] Epoch 207 | Train Loss: 0.2557 | Val Loss: 4.6538 | Val Acc: 0.4286
+2025-06-22 10:46:20,666 [INFO] Epoch 208 | Train Loss: 0.3527 | Val Loss: 5.0778 | Val Acc: 0.4286
+2025-06-22 10:46:20,727 [INFO] Epoch 209 | Train Loss: 0.2922 | Val Loss: 5.4660 | Val Acc: 0.4464
+2025-06-22 10:46:20,788 [INFO] Epoch 210 | Train Loss: 0.4910 | Val Loss: 4.8869 | Val Acc: 0.4107
+2025-06-22 10:46:24,122 [INFO] Epoch 211 | Train Loss: 0.4216 | Val Loss: 4.6466 | Val Acc: 0.4643
+2025-06-22 10:46:24,192 [INFO] Epoch 212 | Train Loss: 0.4821 | Val Loss: 4.9107 | Val Acc: 0.4464
+2025-06-22 10:46:24,297 [INFO] Epoch 213 | Train Loss: 0.5495 | Val Loss: 4.3378 | Val Acc: 0.4643
+2025-06-22 10:46:24,383 [INFO] Epoch 214 | Train Loss: 0.3366 | Val Loss: 4.4024 | Val Acc: 0.4821
+2025-06-22 10:46:24,449 [INFO] Epoch 215 | Train Loss: 0.3649 | Val Loss: 5.0188 | Val Acc: 0.4286
+2025-06-22 10:46:24,532 [INFO] Epoch 216 | Train Loss: 0.2875 | Val Loss: 5.6259 | Val Acc: 0.4643
+2025-06-22 10:46:24,621 [INFO] Epoch 217 | Train Loss: 0.2052 | Val Loss: 5.5299 | Val Acc: 0.4464
+2025-06-22 10:46:24,682 [INFO] Epoch 218 | Train Loss: 0.1920 | Val Loss: 5.2112 | Val Acc: 0.4464
+2025-06-22 10:46:24,747 [INFO] Epoch 219 | Train Loss: 0.5314 | Val Loss: 5.5785 | Val Acc: 0.4286
+2025-06-22 10:46:24,806 [INFO] Epoch 220 | Train Loss: 0.5157 | Val Loss: 5.7376 | Val Acc: 0.4643
+2025-06-22 10:46:25,659 [INFO] Epoch 221 | Train Loss: 0.4288 | Val Loss: 4.8771 | Val Acc: 0.4643
+2025-06-22 10:46:25,728 [INFO] Epoch 222 | Train Loss: 0.6888 | Val Loss: 5.3167 | Val Acc: 0.4821
+2025-06-22 10:46:25,792 [INFO] Epoch 223 | Train Loss: 0.3160 | Val Loss: 6.5701 | Val Acc: 0.4107
+2025-06-22 10:46:25,855 [INFO] Epoch 224 | Train Loss: 0.3952 | Val Loss: 5.9716 | Val Acc: 0.4286
+2025-06-22 10:46:25,917 [INFO] Epoch 225 | Train Loss: 0.3823 | Val Loss: 5.3861 | Val Acc: 0.4464
+2025-06-22 10:46:25,981 [INFO] Epoch 226 | Train Loss: 0.3326 | Val Loss: 5.1151 | Val Acc: 0.4107
+2025-06-22 10:46:26,044 [INFO] Epoch 227 | Train Loss: 0.2268 | Val Loss: 5.6352 | Val Acc: 0.4643
+2025-06-22 10:46:26,109 [INFO] Epoch 228 | Train Loss: 0.3137 | Val Loss: 5.4774 | Val Acc: 0.4464
+2025-06-22 10:46:26,186 [INFO] Epoch 229 | Train Loss: 0.1565 | Val Loss: 5.6683 | Val Acc: 0.4643
+2025-06-22 10:46:26,247 [INFO] Epoch 230 | Train Loss: 0.3101 | Val Loss: 5.6632 | Val Acc: 0.4464
+2025-06-22 10:46:27,318 [INFO] Epoch 231 | Train Loss: 0.3606 | Val Loss: 5.2002 | Val Acc: 0.4464
+2025-06-22 10:46:27,380 [INFO] Epoch 232 | Train Loss: 0.2523 | Val Loss: 5.0067 | Val Acc: 0.4464
+2025-06-22 10:46:27,453 [INFO] Epoch 233 | Train Loss: 0.2690 | Val Loss: 6.3952 | Val Acc: 0.4643
+2025-06-22 10:46:27,514 [INFO] Epoch 234 | Train Loss: 0.2803 | Val Loss: 6.0855 | Val Acc: 0.3571
+2025-06-22 10:46:27,577 [INFO] Epoch 235 | Train Loss: 0.1504 | Val Loss: 6.1031 | Val Acc: 0.3750
+2025-06-22 10:46:27,639 [INFO] Epoch 236 | Train Loss: 0.7998 | Val Loss: 5.7718 | Val Acc: 0.3750
+2025-06-22 10:46:27,718 [INFO] Epoch 237 | Train Loss: 0.2295 | Val Loss: 5.6517 | Val Acc: 0.4107
+2025-06-22 10:46:27,791 [INFO] Epoch 238 | Train Loss: 0.6214 | Val Loss: 5.5177 | Val Acc: 0.4286
+2025-06-22 10:46:27,850 [INFO] Epoch 239 | Train Loss: 0.3609 | Val Loss: 6.4620 | Val Acc: 0.4286
+2025-06-22 10:46:27,910 [INFO] Epoch 240 | Train Loss: 0.6445 | Val Loss: 9.2114 | Val Acc: 0.3750
+2025-06-22 10:46:28,783 [INFO] Epoch 241 | Train Loss: 0.4213 | Val Loss: 6.5054 | Val Acc: 0.4286
+2025-06-22 10:46:28,841 [INFO] Epoch 242 | Train Loss: 0.4892 | Val Loss: 4.6566 | Val Acc: 0.4464
+2025-06-22 10:46:28,901 [INFO] Epoch 243 | Train Loss: 0.4045 | Val Loss: 4.6402 | Val Acc: 0.4464
+2025-06-22 10:46:28,962 [INFO] Epoch 244 | Train Loss: 0.4872 | Val Loss: 6.4483 | Val Acc: 0.3571
+2025-06-22 10:46:29,023 [INFO] Epoch 245 | Train Loss: 0.5127 | Val Loss: 7.0879 | Val Acc: 0.3393
+2025-06-22 10:46:29,083 [INFO] Epoch 246 | Train Loss: 0.3504 | Val Loss: 7.3116 | Val Acc: 0.3929
+2025-06-22 10:46:29,149 [INFO] Epoch 247 | Train Loss: 0.5925 | Val Loss: 7.2051 | Val Acc: 0.3929
+2025-06-22 10:46:29,213 [INFO] Epoch 248 | Train Loss: 0.6100 | Val Loss: 7.4639 | Val Acc: 0.3929
+2025-06-22 10:46:29,279 [INFO] Epoch 249 | Train Loss: 0.3838 | Val Loss: 6.0579 | Val Acc: 0.4286
+2025-06-22 10:46:29,339 [INFO] Epoch 250 | Train Loss: 1.0782 | Val Loss: 6.9819 | Val Acc: 0.4286
+2025-06-22 10:46:30,235 [INFO] Epoch 251 | Train Loss: 0.3423 | Val Loss: 6.4414 | Val Acc: 0.3571
+2025-06-22 10:46:30,306 [INFO] Epoch 252 | Train Loss: 0.4872 | Val Loss: 6.1162 | Val Acc: 0.5179
+2025-06-22 10:46:30,366 [INFO] Epoch 253 | Train Loss: 0.5378 | Val Loss: 3.8020 | Val Acc: 0.4821
+2025-06-22 10:46:30,426 [INFO] Epoch 254 | Train Loss: 0.2664 | Val Loss: 3.9371 | Val Acc: 0.4107
+2025-06-22 10:46:30,487 [INFO] Epoch 255 | Train Loss: 0.4547 | Val Loss: 4.4844 | Val Acc: 0.5000
+2025-06-22 10:46:30,549 [INFO] Epoch 256 | Train Loss: 0.4964 | Val Loss: 6.2808 | Val Acc: 0.4464
+2025-06-22 10:46:30,608 [INFO] Epoch 257 | Train Loss: 0.5646 | Val Loss: 5.9840 | Val Acc: 0.5357
+2025-06-22 10:46:30,670 [INFO] Epoch 258 | Train Loss: 0.2526 | Val Loss: 5.6917 | Val Acc: 0.5000
+2025-06-22 10:46:30,746 [INFO] Epoch 259 | Train Loss: 0.4818 | Val Loss: 5.1365 | Val Acc: 0.4821
+2025-06-22 10:46:30,806 [INFO] Epoch 260 | Train Loss: 0.3083 | Val Loss: 6.2677 | Val Acc: 0.4286
+2025-06-22 10:46:31,683 [INFO] Epoch 261 | Train Loss: 0.4095 | Val Loss: 5.5114 | Val Acc: 0.4286
+2025-06-22 10:46:31,742 [INFO] Epoch 262 | Train Loss: 0.2499 | Val Loss: 5.0424 | Val Acc: 0.4286
+2025-06-22 10:46:31,803 [INFO] Epoch 263 | Train Loss: 0.1835 | Val Loss: 5.5481 | Val Acc: 0.4286
+2025-06-22 10:46:31,864 [INFO] Epoch 264 | Train Loss: 0.2491 | Val Loss: 6.3246 | Val Acc: 0.3750
+2025-06-22 10:46:31,925 [INFO] Epoch 265 | Train Loss: 0.2611 | Val Loss: 6.6639 | Val Acc: 0.3929
+2025-06-22 10:46:32,005 [INFO] Epoch 266 | Train Loss: 0.4831 | Val Loss: 6.8663 | Val Acc: 0.3750
+2025-06-22 10:46:32,077 [INFO] Epoch 267 | Train Loss: 0.5047 | Val Loss: 6.2078 | Val Acc: 0.4107
+2025-06-22 10:46:32,149 [INFO] Epoch 268 | Train Loss: 0.3041 | Val Loss: 5.4141 | Val Acc: 0.4107
+2025-06-22 10:46:32,210 [INFO] Epoch 269 | Train Loss: 0.5554 | Val Loss: 4.6558 | Val Acc: 0.4643
+2025-06-22 10:46:32,271 [INFO] Epoch 270 | Train Loss: 0.3049 | Val Loss: 5.0081 | Val Acc: 0.4286
+2025-06-22 10:46:33,127 [INFO] Epoch 271 | Train Loss: 0.5122 | Val Loss: 6.5531 | Val Acc: 0.3214
+2025-06-22 10:46:33,189 [INFO] Epoch 272 | Train Loss: 0.2049 | Val Loss: 6.5620 | Val Acc: 0.3929
+2025-06-22 10:46:33,249 [INFO] Epoch 273 | Train Loss: 0.2266 | Val Loss: 5.3069 | Val Acc: 0.4464
+2025-06-22 10:46:33,310 [INFO] Epoch 274 | Train Loss: 0.1825 | Val Loss: 5.4320 | Val Acc: 0.4464
+2025-06-22 10:46:33,371 [INFO] Epoch 275 | Train Loss: 0.1489 | Val Loss: 4.7461 | Val Acc: 0.4464
+2025-06-22 10:46:33,432 [INFO] Epoch 276 | Train Loss: 0.4754 | Val Loss: 5.0692 | Val Acc: 0.4107
+2025-06-22 10:46:33,493 [INFO] Epoch 277 | Train Loss: 0.3714 | Val Loss: 4.8585 | Val Acc: 0.4286
+2025-06-22 10:46:33,554 [INFO] Epoch 278 | Train Loss: 0.1601 | Val Loss: 4.3843 | Val Acc: 0.4286
+2025-06-22 10:46:33,623 [INFO] Epoch 279 | Train Loss: 0.3567 | Val Loss: 4.7009 | Val Acc: 0.4286
+2025-06-22 10:46:33,685 [INFO] Epoch 280 | Train Loss: 0.1601 | Val Loss: 5.2414 | Val Acc: 0.4643
+2025-06-22 10:46:34,542 [INFO] Epoch 281 | Train Loss: 0.1518 | Val Loss: 5.2697 | Val Acc: 0.4464
+2025-06-22 10:46:34,608 [INFO] Epoch 282 | Train Loss: 0.4710 | Val Loss: 5.1046 | Val Acc: 0.4464
+2025-06-22 10:46:34,669 [INFO] Epoch 283 | Train Loss: 0.1122 | Val Loss: 5.0857 | Val Acc: 0.4821
+2025-06-22 10:46:34,729 [INFO] Epoch 284 | Train Loss: 0.2529 | Val Loss: 5.0657 | Val Acc: 0.5357
+2025-06-22 10:46:34,788 [INFO] Epoch 285 | Train Loss: 0.2281 | Val Loss: 4.7787 | Val Acc: 0.5000
+2025-06-22 10:46:34,849 [INFO] Epoch 286 | Train Loss: 0.2131 | Val Loss: 4.5488 | Val Acc: 0.4643
+2025-06-22 10:46:34,913 [INFO] Epoch 287 | Train Loss: 0.2214 | Val Loss: 4.5303 | Val Acc: 0.3929
+2025-06-22 10:46:34,974 [INFO] Epoch 288 | Train Loss: 0.1885 | Val Loss: 5.0382 | Val Acc: 0.4643
+2025-06-22 10:46:35,047 [INFO] Epoch 289 | Train Loss: 0.1746 | Val Loss: 6.0776 | Val Acc: 0.4821
+2025-06-22 10:46:35,109 [INFO] Epoch 290 | Train Loss: 0.3490 | Val Loss: 5.8119 | Val Acc: 0.4643
+2025-06-22 10:46:36,439 [INFO] Epoch 291 | Train Loss: 0.2754 | Val Loss: 5.5922 | Val Acc: 0.5000
+2025-06-22 10:46:36,510 [INFO] Epoch 292 | Train Loss: 0.2739 | Val Loss: 5.9423 | Val Acc: 0.4464
+2025-06-22 10:46:36,570 [INFO] Epoch 293 | Train Loss: 0.2808 | Val Loss: 5.7470 | Val Acc: 0.3929
+2025-06-22 10:46:36,630 [INFO] Epoch 294 | Train Loss: 0.2969 | Val Loss: 5.0052 | Val Acc: 0.4464
+2025-06-22 10:46:36,689 [INFO] Epoch 295 | Train Loss: 0.5337 | Val Loss: 5.6104 | Val Acc: 0.4821
+2025-06-22 10:46:36,750 [INFO] Epoch 296 | Train Loss: 0.2252 | Val Loss: 6.0700 | Val Acc: 0.4107
+2025-06-22 10:46:36,812 [INFO] Epoch 297 | Train Loss: 0.3665 | Val Loss: 4.8213 | Val Acc: 0.4643
+2025-06-22 10:46:36,875 [INFO] Epoch 298 | Train Loss: 0.2491 | Val Loss: 5.2805 | Val Acc: 0.4643
+2025-06-22 10:46:36,946 [INFO] Epoch 299 | Train Loss: 0.3515 | Val Loss: 5.5415 | Val Acc: 0.4107
+2025-06-22 10:46:37,007 [INFO] Epoch 300 | Train Loss: 0.2626 | Val Loss: 5.2378 | Val Acc: 0.4464
+2025-06-22 10:46:37,871 [INFO] Epoch 301 | Train Loss: 0.3294 | Val Loss: 4.4432 | Val Acc: 0.5000
+2025-06-22 10:46:37,879 [INFO] Early stopping at epoch 301 (no improvement in 150 epochs).
+2025-06-22 10:46:37,890 [INFO] Best model saved to <built-in function time>/ENZYMES/best/best_source_gin.pth (Val Acc: 0.5536 at epoch 151)
+2025-06-22 10:46:37,891 [INFO] Training/validation metrics saved to <built-in function time>/ENZYMES/GIN_0.001/train_metrics.csv
+2025-06-22 10:46:38,699 [INFO] Final training curves saved
+2025-06-22 10:46:38,699 [INFO] Training completed!
+2025-06-22 10:46:38,699 [INFO] Best validation accuracy: 0.5536
+2025-06-22 10:46:38,699 [INFO] Best epoch: 151
+2025-06-22 10:46:38,699 [INFO] Total epochs trained: 301
+2025-06-22 10:46:38,700 [INFO] Starting training with parameters: (0.001, 0.5, 256, 4, 400, 0.0001)
